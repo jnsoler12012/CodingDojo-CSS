@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 1360px;
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    background: rgb(237, 235, 232);
+    background: linear-gradient(180deg, #f0eeeb 0%, rgba(217, 214, 207, 1) 100%);
+    height: 6.5rem;
+    display: flex;
+    box-shadow: 0px -1px 0px 0px white inset;
+}
+
+button:hover,
+a:hover {
+    cursor: pointer;
+}
+
+#header_logo {
+    width: 40%;
+    height: 65%;
+}
+
+#container_header_logo {
+    display: flex;
+    padding: 1% 2%;
+    width: 40%;
+}
+
+#options_bar {
+    width: 60%;
+    height: 6.5rem;
+}
+
+#search_option {
+    height: 78%;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#search_corporate {
+    height: 1.3rem;
+    width: 6.2rem;
+    text-align: initial;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-right: 3.2rem;
+    border: 0;
+    background: rgb(41, 107, 181);
+    background: linear-gradient(180deg, rgba(41, 107, 181, 1) 0%, rgba(19, 60, 108, 1) 100%);
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0 1.5%;
+}
+
+#search_input {
+    margin-right: 1rem;
+    height: 1.2rem;
+    border-radius: 6px;
+    border: 1px solid rgb(122, 122, 122);
+    box-shadow: 0px 3px 0px 0px #e4e4e4 inset;
+    letter-spacing: 0.5px;
+}
+
+#search_icon {
+    margin-right: 2.5rem;
+    width: 3.2%;
+}
+
+nav {
+    display: flex;
+    height: 22%;
+    justify-content: flex-end;
+}
+
+.nav_option {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    margin: 0;
+    width: 14%;
+    justify-content: flex-end;
+}
+
+.margin_rigth {
+    border-right: solid 1px black;
+}
+
+.nav_option_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #dddad1;
+    height: 95%;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.margin_left {
+    width: 98%;
+}
+
+
+#main_content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+#banner_section {
+    display: flex;
+    width: 100%;
+    background: rgb(52, 111, 178);
+    background: linear-gradient(180deg, rgba(52, 111, 178, 1) 0%, rgba(31, 68, 109, 1) 100%);
+}
+
+#sign_in {
+    display: flex;
+    width: 27%;
+    flex-direction: column;
+    padding: 1.4%;
+}
+
+#sign_in_box {
+    display: flex;
+    background-color: #d4dbe3;
+    flex-direction: column;
+    padding: 2px;
+}
+
+#sign_in_title {
+    width: 100%;
+    background: rgb(16, 58, 103);
+    background: linear-gradient(180deg, rgba(16, 58, 103, 1) 0%, rgba(47, 110, 183, 1) 100%);
+    color: white;
+}
+
+#title {
+    font-size: 1.8rem;
+    margin: 1rem 1rem 0 1rem;
+}
+
+#subtitle {
+    margin: 0 1rem 0.3rem 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem 1.7rem;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.label_form {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.input_form {
+    height: 1.6rem;
+    width: 75%;
+    border-radius: 6px;
+    border: 1px solid rgb(122, 122, 122);
+    box-shadow: 0px 3px 0px 0px #e4e4e4 inset;
+}
+
+.forgot_text {
+    color: #296efc;
+    margin-top: 2%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.register_text {
+    color: #296efc;
+    font-size: 1.2rem;
+    margin: 0;
+
+}
+
+#sig_in_button {
+    background: rgb(79, 79, 79);
+    background: linear-gradient(180deg, rgba(79, 79, 79, 1) 0%, rgba(54, 54, 54, 1) 46%, rgba(140, 140, 139, 1) 100%);
+    color: white;
+    height: 2rem;
+    width: 6rem;
+    font-size: 1.2rem;
+    border-radius: 9px;
+    border: 1px solid #878585;
+    margin: 0 1rem 0 0;
+}
+
+#button_register {
+    margin-top: 5%;
+    height: 3rem;
+    letter-spacing: 1.5px;
+    font-size: 1.6rem;
+    color: white;
+    background: rgb(17, 57, 103);
+    background: linear-gradient(180deg, rgba(17, 57, 103, 1) 0%, rgba(39, 104, 178, 1) 74%);
+    border: 1px solid white;
+}
+
+#banner_image {
+    width: 73%;
+    z-index: -0;
+}
+
+#banner_image_section {
+    width: 96%;
+    height: 96%;
+    background-position: -23px -22px;
+    background-size: 106%;
+    background-image: url("./imgs/section.png");
+    display: flex;
+    flex-direction: row;
+}
+
+#main_pic {
+    height: 100%;
+
+}
+
+#color_bars {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+#first_bar {
+    background-color: #19487e;
+    height: 25%;
+    width: 100%;
+}
+
+#second_bar {
+    background-color: #1c508a;
+    height: 18%;
+}
+
+#third_bar {
+    height: 18%;
+    background-color: #4681c5;
+}
+
+#fourth_bar {
+    background-color: #4d87c7;
+    height: 16%;
+
+}
+
+#fifth_bar {
+    height: 7%;
+    background: rgb(49, 115, 189);
+    background: linear-gradient(153deg, rgba(49, 115, 189, 1) 0%, rgba(91, 143, 203, 1) 100%);
+}
+
+#sixth_bar {
+    height: 16%;
+    background-color: rgba(43, 110, 188, 255);
+
+}
+
+#banner_updates {
+    display: flex;
+    height: 2.8rem;
+    background-color: #d4dbe3;
+    padding: 0 1.4%;
+    font-size: 1.2rem;
+    align-items: center;
+    font-weight: 800;
+}
+
+#update_text {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #3a7cfe;
+}
+
+#services {
+    background-color: #1f446d;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.9% 2.2%;
+}
+
+.services_container {
+    border: 4px solid #e2dfda;
+    display: flex;
+    background-color: white;
+    height: 8rem;
+    width: 32%;
+}
+
+.service_image {
+    width: 100%;
+}
+
+.service_image_container {
+    padding: 3.5%;
+    width: 25%;
+}
+
+.service_description_container {
+    width: 75%;
+}
+
+.title_service {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 2%;
+}
+
+.description_service {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #428bf8;
+}
+
+
+footer {
+    padding: 0.2% 1.5%;
+    background: rgb(230, 227, 221);
+    background: linear-gradient(180deg, rgba(230, 227, 221, 1) 0%, rgba(209, 202, 193, 1) 100%);
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#footer_list {
+
+    display: flex;
+    width: 79%;
+    align-items: center;
+    border-right: solid 1px black;
+}
+
+#footer_status {
+    display: flex;
+    align-items: center;
+}
+
+.select {
+    padding: 2px 1%;
+    margin: 0;
+}
+
+.selection_footer {
+    border-left: 1px solid;
+    border-image: linear-gradient(to buttom, #000 50%, transparent 50%) 100% 1;
+}
+
+#black_text {
+    font-weight: 800;
+    margin: 0 10px;
+}
+
+#green_text {
+    color: green;
+}

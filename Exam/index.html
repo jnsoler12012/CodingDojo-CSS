@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Dominions</title>
+</head>
+
+<body>
+    <header>
+        <div id="container_header_logo">
+            <img src="./assets/imgs/logo.png" alt="logo" id="header_logo">
+        </div>
+
+        <div id="options_bar">
+            <div id="search_option">
+                <button id="search_corporate" onclick="">Corporate</button>
+                <input type="text" id="search_input">
+                <img src="./assets/imgs/search_icon.png" alt="search_icon" id="search_icon">
+            </div>
+            <nav>
+                <p class="nav_option margin_rigth"><a href="#" class="nav_option_text">Customers</a></p>
+                <p class="nav_option margin_rigth"><a href="#" class="nav_option_text margin_left">Products</a></p>
+                <p class="nav_option margin_rigth"><a href="#" class="nav_option_text margin_left">Investors</a></p>
+                <p class="nav_option margin_rigth"><a href="#" class="nav_option_text margin_left">News</a></p>
+                <p class="nav_option margin_rigth"><a href="#" class="nav_option_text margin_left">Careers</a></p>
+                <p class="nav_option margin_rigth"><a href="#" class="nav_option_text margin_left">Civism</a></p>
+                <p class="nav_option"><a href="#" class="nav_option_text margin_left">About Dominion</a></p>
+            </nav>
+        </div>
+    </header>
+    <div id="main_content">
+        <div id="banner_section">
+            <div id="sign_in">
+                <div id="sign_in_box">
+                    <div id="sign_in_title">
+                        <p id="title">Manage Your Account</p>
+                        <p id="subtitle">View/pay ebills, analyze usage and more.</p>
+                    </div>
+                    <form>
+                        <label for="username" class="label_form">User Name:</label>
+                        <input type="text" id="username" class="input_form">
+                        <p class="forgot_text">Forgot your user name?</p>
+                        <label for="password" class="label_form">Password:</label>
+                        <input type="password" id="password" class="input_form">
+                        <p class="forgot_text">Forgot your password?</p>
+                        <p class="register_text"> <button id="sig_in_button"> Sign In</button> Register</p>
+
+                    </form>
+                </div>
+                <button id="button_register"> I am a New Customer</button>
+            </div>
+            <div id="banner_image">
+                <div id="banner_image_section">
+                    <img src="./assets/imgs/main_pic.png" alt="main_pic" id="main_pic">
+                    <div id="color_bars">
+                        <div id="first_bar"></div>
+                        <div id="second_bar"></div>
+                        <div id="third_bar"></div>
+                        <div id="fourth_bar"></div>
+                        <div id="fifth_bar"></div>
+                        <div style="overflow: hidden;" id="sixth_bar">
+                            <svg preserveAspectRatio="none" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg"
+                                style="fill: #508bca; width: 314%;
+                                height: 62px; transform: scaleX(-1);">
+                                <path
+                                    d="M321.39 56.44c58-10.79 114.16-30.13 172-41.86 82.39-16.72 168.19-17.73 250.45-.39C823.78 31 906.67 72 985.66 92.83c70.05 18.48 146.53 26.09 214.34 3V0H0v27.35a600.21 600.21 0 00321.39 29.09z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="banner_updates">
+            News Update: <a id="update_text">Dominion to Build Solar Power Project in Georgia</a>
+        </div>
+        <div id="services">
+            <div class="services_container">
+                <div class="service_image_container">
+                    <img src="./assets/imgs/data_center.png" alt="data_center" class="service_image">
+                </div>
+                <div class="service_description_container">
+                    <p class="title_service">Dominion Data Center Services</p>
+                    <p class="description_service">Data centers are a growing
+                        segment of our Virginia
+                        customer base</p>
+                </div>
+            </div>
+            <div class="services_container">
+                <div class="service_image_container">
+                    <img src="./assets/imgs/green_solutions.png" alt="green_solutions" class="service_image">
+                </div>
+
+                <div class="service_description_container">
+                    <p class="title_service">Green Solutions</p>
+                    <p class="description_service">Save money, use energy efficiently and help the environment.</p>
+                </div>
+            </div>
+            <div class="services_container">
+                <div class="service_image_container">
+                    <img src="./assets/imgs/promise.png" alt="promise" class="service_image">
+                </div>
+                <div class="service_description_container">
+                    <p class="title_service">A Promise is a Promise</p>
+                    <p class="description_service">If Gov. Malloy breaks his word, Connecticut electric rates could
+                        rise.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footer_list">
+            <p class="select">Help</p>
+            <p class="select selection_footer">Legal Terms and Conditions</p>
+            <p class="select selection_footer">Privacy</p>
+            <p class="select selection_footer">Para Servirlos</p>
+            <p class="select selection_footer">Contact Us</p>
+            <p class="select selection_footer">Diversity</p>
+        </div>
+        <div id="footer_status">
+            NYSE: (April 3, 2013) <a id="black_text">D 58.75</a> <a id="green_text">+0.13</a>
+        </div>
+    </footer>
+</body>
+
+</html>
